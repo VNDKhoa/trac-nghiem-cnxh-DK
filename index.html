@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trắc nghiệm Chủ nghĩa xã hội</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="questions.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div><p class="eyebrow">ÔN TẬP • CHƯƠNG 6</p><h1>Trắc nghiệm Chủ nghĩa xã hội</h1><p class="subtitle">Học theo câu hỏi, xem ảnh gốc và theo dõi tiến độ ngay trên máy.</p></div>
+      <span class="local-badge">Hoạt động ngoại tuyến</span>
+    </header>
+    <main class="layout">
+      <aside class="sidebar panel">
+        <label class="field-label" for="setSelect">Bộ câu hỏi</label>
+        <select id="setSelect"></select>
+        <button id="shuffleAll" class="shuffle-button" type="button">Trộn câu và đáp án</button>
+        <div class="small-row"><label><input id="studyMode" type="checkbox"> Chế độ Học</label></div>
+        <div class="stats" id="stats" aria-live="polite"></div>
+        <div class="progress-track"><div id="progressFill"></div></div>
+        <div id="questionGrid" class="question-grid" aria-label="Chọn số câu"></div>
+        <div class="side-actions"><button id="retryWrong" type="button">Làm lại câu sai</button><button id="exitRetry" type="button" class="hidden">Trở về bộ câu</button><button id="restart" type="button" class="danger">Làm lại từ đầu</button></div>
+      </aside>
+      <section class="content panel" aria-live="polite">
+        <div class="question-top"><div><p id="position" class="eyebrow"></p><h2 id="questionId"></h2></div><span id="statusTag" class="status-tag"></span></div>
+        <p id="topic" class="topic"></p>
+        <p id="questionText" class="question-text"></p>
+        <div id="options" class="options"></div>
+        <button id="submitMulti" class="primary hidden" type="button">Kiểm tra đáp án</button>
+        <div id="feedback" class="feedback hidden" role="status"></div>
+        <details class="source"><summary>Xem ảnh gốc</summary><img id="sourceImage" alt="Ảnh nguồn của câu hỏi"><p id="sourcePath"></p></details>
+        <div class="nav"><button id="previous" type="button">← Câu trước</button><button id="next" class="primary" type="button">Câu tiếp →</button></div>
+      </section>
+    </main>
+    <footer>63 đáp án đã được người dùng xác nhận. Câu 29 và 52 chưa có đáp án hợp lệ nên không chấm điểm.</footer>
+  </div>
+</body>
+</html>
