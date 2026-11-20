@@ -1,13 +1,16 @@
 # Trắc nghiệm Chủ nghĩa xã hội
 
-Web dùng HTML, CSS và JavaScript thuần. Mở trực tiếp `index.html` bằng trình duyệt; không cần máy chủ, internet hay thư viện ngoài. Ảnh câu hỏi nằm trong `Question/Cau_hoi_Chuong_6_Cau_01-65/`.
+Web dùng HTML, CSS và JavaScript thuần. Mở trực tiếp `index.html` bằng trình duyệt; không cần máy chủ, internet hay thư viện ngoài. Ảnh câu hỏi nằm trong `Question/`.
 
 ## Dữ liệu hiện tại
 
-- 65 câu từ 66 ảnh Chương 6. `Cau_59_gui_lai.png` là bản gửi lại của câu 59.
-- Nội dung câu hỏi và lựa chọn được nhập từ bốn phần văn bản do người dùng cung cấp. Xem `OCR_REPORT.md` để biết mức độ đối chiếu với ảnh.
-- **65 đáp án đã được người dùng xác nhận** và được dùng để chấm điểm. Nguồn ghi trong `answerSource`; ảnh gốc không hiển thị đáp án.
+- 261 câu từ 263 ảnh đã xử lý của Chương 6. `Cau_59_gui_lai.png` là bản gửi lại của câu 59; hai ảnh `11.31.07` và `11.31.11` trong bộ cuối trùng nội dung câu 61.
+- Câu 1–65 được nhập từ bốn phần văn bản đầu; câu 66–115 từ 50 ảnh trong `Question/CL01.1-NB`; câu 116–195 từ 80 ảnh trong `Question/CL01.2-TH`; câu 196–261 từ 67 ảnh trong `Question/LO1.2-TH-final` (66 câu khác nhau). Xem `OCR_REPORT.md` để biết ảnh nào đã xử lý.
+- **261 đáp án đã được xác nhận** và được dùng để chấm điểm. Nguồn ghi trong `answerSource`; ảnh câu 66–261 hiển thị đáp án đúng.
+- Đã xác minh lại **196/196 đáp án** từ C6-066 đến C6-261 với ảnh nguồn; xem phần kết quả trong `OCR_REPORT.md`.
+- Lựa chọn bị cắt trong ảnh ở C6-170 và C6-188 được đánh dấu `[CẦN KIỂM TRA]` trong dữ liệu văn bản.
 - Câu 19, 29 và 52 đã được đối chiếu với ảnh kết quả bài kiểm tra do người dùng cung cấp; đáp án lần lượt là `d`, `c`, `a`.
+- Toàn bộ ảnh hiện có trong `Question/` đã được ghi nhận; ảnh trùng không tạo thêm câu.
 - Lời giải ChatGPT được giữ ở `suggestedExplanation` để quản lý; chưa được xác minh riêng nên không hiện như lời giải đã xác minh trong web.
 
 ## Mở web
@@ -48,3 +51,7 @@ Khi có đáp án chính thức hoặc tài liệu tin cậy, đối chiếu t�
 ## Cách dùng
 
 Chọn bộ, bấm **Trộn câu và đáp án** để trộn cả hai một lần; bấm tiếp sẽ trộn lại. Số câu hiển thị luôn theo vị trí 1, 2, 3… dù nội dung câu đã đảo. Nhãn A, B, C, D giữ nguyên vị trí, chỉ nội dung lựa chọn đổi chỗ; web vẫn chấm theo ID đáp án gốc. Thứ tự mới được lưu khi tải lại trang. Câu một đáp án được ghi nhận khi bấm lựa chọn; câu nhiều đáp án cần bấm **Kiểm tra đáp án**. Chọn đúng sẽ tự sang câu kế; chọn sai hiện đáp án đã xác minh và đợi bấm **Câu tiếp →**. **Làm lại câu sai** dùng các câu đã từng được chấm sai và có thể lặp nhiều vòng. **Làm lại từ đầu** chỉ xóa tiến độ của bộ đang chọn. Chế độ Học chỉ hiển thị đáp án và giải thích đã xác minh.
+
+## Kiểm tra tự động (tùy chọn)
+
+Nếu đã cài Node.js, chạy `node test_app.cjs` để kiểm tra chức năng làm bài. Người học vẫn mở trực tiếp `index.html` mà không cần Node.js.
