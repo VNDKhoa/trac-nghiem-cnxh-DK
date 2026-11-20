@@ -4,8 +4,8 @@
 - Số ảnh tìm thấy và quét OCR: 66.
 - Số câu trong dữ liệu: 65.
 - `Cau_59_gui_lai.png` là bản gửi lại của câu 59, không tạo câu thứ 66.
-- Số câu có đáp án được người dùng xác nhận: 63. Số câu chưa có đáp án hợp lệ: 2 (29 và 52).
-- Câu 29 và 52 có ID đáp án gợi ý không hợp lệ: `d` trong khi ảnh chỉ có các lựa chọn `a–c`.
+- Số câu có đáp án được người dùng xác nhận: 65. Số câu chưa có đáp án hợp lệ: 0.
+- Ảnh kết quả bài kiểm tra người dùng cung cấp xác nhận lại câu 19 là `d`, câu 29 là `c` và câu 52 là `a`. Các gợi ý cũ ở ba câu này đã được thay thế.
 - Ảnh gốc không hiển thị đáp án hoặc lời giải. Người dùng đã xác nhận các đáp án hợp lệ trong dữ liệu ChatGPT gửi đến; các dòng giải thích vẫn là gợi ý của ChatGPT, chưa được xác minh riêng.
 - Công cụ OCR cục bộ không nhận đúng tiếng Việt có dấu. Văn bản trong `questions.js` lấy từ bốn phần người dùng gửi. Đã xem trực tiếp toàn bộ 66 ảnh để kiểm đếm câu/lựa chọn và xem có đáp án trong ảnh hay không.
 
@@ -84,6 +84,4 @@
 
 ## Cần kiểm tra đáp án
 
-- [CẦN KIỂM TRA] C6-029: đáp án gợi ý d không có trong ảnh/danh sách lựa chọn.
-- [CẦN KIỂM TRA] C6-052: đáp án gợi ý d không có trong ảnh/danh sách lựa chọn.
-- Câu 29 và 52: cần người dùng cung cấp ID đáp án hợp lệ trước khi bật chấm điểm.
+- Không còn câu nào thiếu đáp án hợp lệ. Câu 19, 29 và 52 đã có đáp án từ ảnh kết quả bài kiểm tra; ảnh không cung cấp lời giải.

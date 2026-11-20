@@ -1,4 +1,4 @@
-// Sửa dữ liệu tại đây. Đáp án đã được người dùng xác nhận; câu 29 và 52 còn thiếu đáp án hợp lệ.
+// Sửa dữ liệu tại đây. Cả 65 đáp án đã được người dùng xác nhận.
 window.QUESTION_BANK = [
   {
     "id": "C6-001",
@@ -619,12 +619,12 @@ window.QUESTION_BANK = [
       }
     ],
     "answerIds": [
-      "c"
+      "d"
     ],
     "explanation": null,
-    "answerSource": "Người dùng xác nhận đáp án trong dữ liệu ChatGPT đã gửi",
+    "answerSource": "Ảnh kết quả bài kiểm tra câu 19 do người dùng cung cấp",
     "suggestedAnswerIds": null,
-    "suggestedExplanation": "Theo giáo trình, ở châu Âu, dân tộc hình thành vào khoảng thế kỷ XV, gắn với sự ra đời của phương thức sản xuất tư bản chủ nghĩa.",
+    "suggestedExplanation": null,
     "reviewNote": null
   },
   {
@@ -944,12 +944,14 @@ window.QUESTION_BANK = [
         "text": "Các dân tộc tăng cường hợp tác để hình thành liên minh khu vực."
       }
     ],
-    "answerIds": null,
+    "answerIds": [
+      "c"
+    ],
     "explanation": null,
-    "answerSource": null,
+    "answerSource": "Ảnh kết quả bài kiểm tra câu 29 do người dùng cung cấp",
     "suggestedAnswerIds": null,
     "suggestedExplanation": null,
-    "reviewNote": "Đáp án gợi ý không khớp lựa chọn trong ảnh; cần kiểm tra."
+    "reviewNote": null
   },
   {
     "id": "C6-030",
@@ -1693,12 +1695,14 @@ window.QUESTION_BANK = [
         "text": "Các cộng đồng dân cư bảo vệ bản sắc và truyền thống văn hóa riêng."
       }
     ],
-    "answerIds": null,
+    "answerIds": [
+      "a"
+    ],
     "explanation": null,
-    "answerSource": null,
+    "answerSource": "Ảnh kết quả bài kiểm tra câu 52 do người dùng cung cấp",
     "suggestedAnswerIds": null,
     "suggestedExplanation": null,
-    "reviewNote": "Đáp án gợi ý không khớp lựa chọn trong ảnh; cần kiểm tra."
+    "reviewNote": null
   },
   {
     "id": "C6-053",

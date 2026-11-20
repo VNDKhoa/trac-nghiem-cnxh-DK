@@ -1,6 +1,6 @@
 # Câu hỏi Chương 6
 
-Dữ liệu từ 65 ảnh và bốn phần văn bản người dùng cung cấp. 63 đáp án đã được người dùng xác nhận; câu 29 và 52 còn thiếu đáp án hợp lệ.
+Dữ liệu từ 65 ảnh và bốn phần văn bản người dùng cung cấp. Cả 65 đáp án đã được người dùng xác nhận; câu 19, 29 và 52 được đối chiếu thêm với ảnh kết quả bài kiểm tra.
 
 ## C6-001 — Khái niệm dân tộc theo nghĩa rộng
 
@@ -245,9 +245,9 @@ Dữ liệu từ 65 ảnh và bốn phần văn bản người dùng cung cấp.
   - b. Khi các bộ lạc liên kết lại với nhau thành các bộ tộc trong chế độ phong kiến.
   - c. Khi hình thái kinh tế - xã hội tư bản chủ nghĩa bắt đầu được hình thành.
   - d. Khi chế độ công xã nguyên thủy tan rã và xã hội xuất hiện sự phân chia giai cấp.
-- Đáp án đúng: c
-- Nguồn xác nhận đáp án: Người dùng xác nhận đáp án trong dữ liệu ChatGPT đã gửi
-- Giải thích ChatGPT gợi ý (chưa xác minh riêng): Theo giáo trình, ở châu Âu, dân tộc hình thành vào khoảng thế kỷ XV, gắn với sự ra đời của phương thức sản xuất tư bản chủ nghĩa.
+- Đáp án đúng: d
+- Nguồn xác nhận đáp án: Ảnh kết quả bài kiểm tra câu 19 do người dùng cung cấp
+- Giải thích: Ảnh kết quả không cung cấp lời giải.
 
 ## C6-020 — Đặc trưng dân tộc theo nghĩa hẹp
 
@@ -374,8 +374,9 @@ Dữ liệu từ 65 ảnh và bốn phần văn bản người dùng cung cấp.
   - a. Các cộng đồng dân cư tăng cường liên kết trong một quốc gia.
   - b. Các dân tộc mở rộng giao lưu để thúc đẩy phát triển kinh tế.
   - c. Các dân tộc tăng cường hợp tác để hình thành liên minh khu vực.
-- Đáp án đúng: Chưa có đáp án xác minh
-- [CẦN KIỂM TRA] Đáp án gợi ý không khớp lựa chọn trong ảnh; cần kiểm tra.
+- Đáp án đúng: c
+- Nguồn xác nhận đáp án: Ảnh kết quả bài kiểm tra câu 29 do người dùng cung cấp
+- Giải thích: Ảnh kết quả không cung cấp lời giải.
 
 ## C6-030 — Quyền dân tộc tự quyết
 
@@ -670,8 +671,9 @@ Dữ liệu từ 65 ảnh và bốn phần văn bản người dùng cung cấp.
   - a. Các cộng đồng dân cư đấu tranh giành quyền thành lập quốc gia độc lập.
   - b. Các dân tộc khẳng định quyền tự chủ trong quá trình phát triển riêng.
   - c. Các cộng đồng dân cư bảo vệ bản sắc và truyền thống văn hóa riêng.
-- Đáp án đúng: Chưa có đáp án xác minh
-- [CẦN KIỂM TRA] Đáp án gợi ý không khớp lựa chọn trong ảnh; cần kiểm tra.
+- Đáp án đúng: a
+- Nguồn xác nhận đáp án: Ảnh kết quả bài kiểm tra câu 52 do người dùng cung cấp
+- Giải thích: Ảnh kết quả không cung cấp lời giải.
 
 ## C6-053 — Nguyên tắc bình đẳng dân tộc
 

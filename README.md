@@ -6,8 +6,8 @@ Web dùng HTML, CSS và JavaScript thuần. Mở trực tiếp `index.html` bằ
 
 - 65 câu từ 66 ảnh Chương 6. `Cau_59_gui_lai.png` là bản gửi lại của câu 59.
 - Nội dung câu hỏi và lựa chọn được nhập từ bốn phần văn bản do người dùng cung cấp. Xem `OCR_REPORT.md` để biết mức độ đối chiếu với ảnh.
-- **63 đáp án đã được người dùng xác nhận** và được dùng để chấm điểm. Nguồn ghi trong `answerSource`; ảnh gốc không hiển thị đáp án.
-- Câu 29 và 52 có gợi ý chọn `d` nhưng ảnh chỉ có ba lựa chọn. Hai câu này giữ `answerIds: null`, không chấm điểm và được đánh dấu cần kiểm tra.
+- **65 đáp án đã được người dùng xác nhận** và được dùng để chấm điểm. Nguồn ghi trong `answerSource`; ảnh gốc không hiển thị đáp án.
+- Câu 19, 29 và 52 đã được đối chiếu với ảnh kết quả bài kiểm tra do người dùng cung cấp; đáp án lần lượt là `d`, `c`, `a`.
 - Lời giải ChatGPT được giữ ở `suggestedExplanation` để quản lý; chưa được xác minh riêng nên không hiện như lời giải đã xác minh trong web.
 
 ## Mở web
