@@ -34,7 +34,18 @@
     state.wrongHistory = [...new Set((Array.isArray(state.wrongHistory) ? state.wrongHistory : []).filter(id=>valid.has(id)))];
     state.attempts = state.attempts && typeof state.attempts === 'object' ? state.attempts : {};
     for (const [id, attempt] of Object.entries(state.attempts)) {
-      if (attempt?.status === 'ungraded' && byId.has(id) && hasAnswer(byId.get(id))) delete state.attempts[id];
+      const question = byId.get(id);
+      if (!question || !hasAnswer(question)) continue;
+      if (attempt?.status === 'ungraded') {
+        delete state.attempts[id];
+      } else if (Array.isArray(attempt?.selectedIds)) {
+        const correct = sameSet(attempt.selectedIds, question.answerIds);
+        if ((attempt.status === 'correct') !== correct) {
+          attempt.status = correct ? 'correct' : 'wrong';
+          state.wrongHistory = state.wrongHistory.filter(wrongId => wrongId !== id);
+          if (!correct) state.wrongHistory.push(id);
+        }
+      }
     }
     state.optionOrders = state.optionOrders && typeof state.optionOrders === 'object' ? state.optionOrders : {};
     state.index = Math.min(Math.max(0, Number(state.index)||0), Math.max(0,state.order.length-1));
